@@ -1,0 +1,63 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 1000px;
+    margin-left: 45px;
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+    row-gap: 75px;
+    
+}
+.recipies-content-card-body
+{
+    border: 1px solid rgb(223,223,223);
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+  border-bottom: none;
+    height: 318px;
+    width: 412px;
+    background-color:#FFFFFF; 
+}
+.recipies-content-card-body>img
+{
+    padding-left:8px;
+    padding-top: 8px;
+}
+.recipies-content-card-body>h1
+{
+    padding-left:8px;
+    /* border: 2px solid gold; */
+    margin-top: -2px;
+    font-size: 22px;
+    color: #343a40;
+    --font-family-sans-serif: Lato, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.recipies-content-card-body>p
+{
+    margin-top: 34px;
+    margin-right:10px;
+text-align:end;
+color: green;
+}
+.card-icon {
+    height: 50px;
+    width: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 35px;
+    margin-top: 12px;
+    margin-left: -1px;
+    border-top: 1px solid rgb(223,223,223);
+    color:rgb(160,160,162);
+    border: 1px solid rgb(223,223,223);
+
+  }
