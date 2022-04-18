@@ -1,0 +1,147 @@
+@import url('httpss://fonts.googleapis.com/css?family=Roboto');
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.signup-form
+{
+    border: 2px solid black;
+    width: 635px;
+    margin-left: 350px;
+}
+.form-heading
+{
+    text-align: center;
+    background-color: #EFF0F1;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.form-footer
+{
+    text-align:end;
+    background-color: #EFF0F1;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Roboto", sans-serif;
+
+}
+.form-body
+{
+    padding:10px 40px;
+    color:#666;
+}
+
+/* design for input first name ,last name,password,hobbies,income...... */
+.first-last-name,.password-confirm-password,.gender-hobbies,.pp-age,.source-income
+{
+    margin-top:15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+    color:#11dfab;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+}
+#fname,#lname,#pw,#cpw
+{
+    height: 25px;
+    width:250px;
+    border-radius: 4px;
+    border:none;
+    border: 1px solid #3333;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+
+}
+
+/* design for input email and bio */
+.email-enter,.bio
+{
+    color:#11dfab;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+#email
+{
+    height: 25px;
+    width:522px;
+    border-radius: 4px;
+    border:none;
+    border: 1px solid #3333;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+}
+
+/* design for No file Choosen */
+#file
+{
+    color: #666;
+    font-family: "Roboto", sans-serif;
+    font-size:small;
+    font-weight: 100px;
+}
+
+/* design for male-female-hobbies*/
+.male-female-hobbies
+{
+    color: #898B8D;
+    font-family: "Roboto", sans-serif;
+    font-size:17px;
+    font-weight: 50px;  
+}
+
+/* design for margin hobies section */
+.hobbies,.income
+{
+    margin-left: 120px;
+}
+/* design for twenty */
+.twenty
+{
+   border:1px solid black;
+   background-color: #11dfab;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   padding: 2px;
+}
+
+/* design for textarea */
+textarea
+{
+    width:562px ;
+    height: 80px;
+    border-radius: 4px;
+}
+ /* design for btn */
+.btn
+{
+    background-color: #11dfab;
+    color:white;
+    padding: 4px;
+    font-family: "Roboto", sans-serif;
+    font-size:medium;
+    font-weight: 100px;
+    margin-right: 40px;
+    border:none;
+    border-radius: 3px;
+}
+
+/* usefull link:
+https://dev.to/hirajatamil/design-cool-registration-form-using-html-css-5f4e
+https://www.w3schools.com/tags/tag_select.asp */
